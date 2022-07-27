@@ -47,7 +47,6 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <p>IFG UK is a leading fasilitation Agency serving the UK Bridal industry. Encompassing Wedding Gowns and Bridesmaids. Our international brands have a proven reputation for success.</p>
     <p>It is our mission to share that success with our loyal UK stockists and consumers alike.</p>
     <p>We pride ourselves on our dedication to everyone we serve, and invite every stockist to experience the difference IFG UK can offer your business.</p>
-    <p>In our current portfolio, we are proud to facilitate distribution for the following brands: </p>
   </div>
 
   <!-- Slideshow -->
@@ -95,10 +94,10 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <div class="w3-card-4">
         <img src="/w3images/team1.jpg" alt="John" style="width:100%">
         <div class="w3-container">
-          <h3>Jane Doe</h3>
-          <p class="w3-opacity">CEO & Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+          <h3>BILL LEVKOFF</h3>
+          <p class="w3-opacity">Bridesmaids & Special Occasion</p>
+          <p>Write something here.</p>
+          <p><a href="https://www.billlevkoff.com/"><button class="w3-button w3-light-grey w3-block">Visit</button></a></p>
         </div>
       </div>
     </div>
@@ -159,7 +158,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   </div>
 
   <div class="w3-xlarge w3-section">
-    <a href="url">link text</a>
+    <a href="#">Privacy Policy</a>
   </div>
 
 </footer>
