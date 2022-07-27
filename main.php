@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/x-icon" href="images/icon.ico"/>
 <style>
 html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .mySlides {display:none}
@@ -15,6 +16,8 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .map-responsive{overflow:hidden;padding-bottom:56.25%;position:relative;height:0;}
 .map-responsive iframe{left:0;top:0;height:100%;width:100%;position:absolute;}
 </style>
+
+
 </head>
 <body>
 
@@ -214,11 +217,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <h2 class="w3-wide w3-center">CONTACT</h2>
     <div class="w3-row">
         <p></p>
-        <i class="fa fa-map-marker" style="width:30px"></i> Address: Unit 4, Performance Park, Clovelly Road Ind Est., Bideford, Devon, United Kingdom, EX39 3FW
+        <i class="fa fa-map-marker" style="width:30px"></i> <b>Address</b>: Unit 4, Performance Park, Clovelly Road Ind Est., Bideford, Devon, United Kingdom, EX39 3FW
         <p></p>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: 01237723047 / 07759226220
+        <i class="fa fa-phone" style="width:30px"></i> <b>Phone</b>: 01237723047 / 07759226220
         <p></p>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: <a href = "mailto: enquiries@ifg-uk.com">enquiries@ifg-uk.com</a>
+        <i class="fa fa-envelope" style="width:30px"> </i> <b>Email</b>: <a href = "mailto: enquiries@ifg-uk.com">enquiries@ifg-uk.com</a>
         <p></p>
     </div>
     <div class="w3-row">
@@ -233,7 +236,6 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
-  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
