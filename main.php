@@ -12,6 +12,8 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+.map-responsive{overflow:hidden;padding-bottom:56.25%;position:relative;height:0;}
+.map-responsive iframe{left:0;top:0;height:100%;width:100%;position:absolute;}
 </style>
 </head>
 <body>
@@ -220,7 +222,9 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         <p></p>
     </div>
     <div class="w3-row">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2510.3266641539794!2d-4.238004682556151!3d51.01011370000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486c3fa3942e21a7%3A0xf4837e81321ec7af!2sIFG-UK!5e0!3m2!1ses!2suk!4v1658933066965!5m2!1ses!2suk" width="600px" height = "400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2510.3266641539794!2d-4.238004682556151!3d51.01011370000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486c3fa3942e21a7%3A0xf4837e81321ec7af!2sIFG-UK!5e0!3m2!1ses!2suk!4v1658933066965!5m2!1ses!2suk" width="600" height = "400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
   </div>
 
@@ -267,24 +271,6 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-white";
 }
 </script>
-
-<script type="text/javascript">
-
-function initialize() {
-
-  var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-
-  // Resize stuff...
-  google.maps.event.addDomListener(window, "resize", function() {
-    var center = map.getCenter();
-    google.maps.event.trigger(map, "resize");
-    map.setCenter(center);
-  });
-
-}
-
-</script>
-
 
 </body>
 </html>
