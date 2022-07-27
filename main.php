@@ -23,7 +23,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <a href="#" class="w3-button w3-block">Home</a>
     </div>
     <div class="w3-col s3">
-      <a href="#plans" class="w3-button w3-block">Plans</a>
+      <a href="#plans" class="w3-button w3-block">Brands</a>
     </div>
     <div class="w3-col s3">
       <a href="#about" class="w3-button w3-block">About</a>
@@ -38,8 +38,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
 
   <div class="w3-panel">
-    <h1><b>MARKETING</b></h1>
-    <p>Template by w3.css</p>
+    <h1><b>INTERNATIONAL FASHION GROUP UK</b></h1>
+    <p>IFG UK is a leading fasilitation Agency serving the UK Bridal industry. Encompassing Wedding Gowns and Bridesmaids. Our international brands have a proven reputation for success.</p>
+    <p>It is our mission to share that success with our loyal UK stockists and consumers alike.</p>
+    <p>We pride ourselves on our dedication to everyone we serve, and invite every stockist to experience the difference IFG UK can offer your business.</p>
+    <p>In our current portfolio, we are proud to facilitate distribution for the following brands: </p>
   </div>
 
   <!-- Slideshow -->
@@ -205,29 +208,19 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   </div>
 
   <!-- Contact -->
-  <div class="w3-center w3-padding-64" id="contact">
-    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
-  </div>
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Unit 4, Performance Park, Clovelly Road Ind Est., Bideford, Devon, United Kingdom, EX39 3FW<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 01237723047 or 07759226220<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: enquiries@ifg-uk.com<br>
+      </div>
+      <div class="w3-col m6">
 
-  <form class="w3-container" action="/action_page.php" target="_blank">
-    <div class="w3-section">
-      <label>Name</label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+      </div>
     </div>
-    <div class="w3-section">
-      <label>Email</label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
-    </div>
-    <div class="w3-section">
-      <label>Subject</label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
-    </div>
-    <div class="w3-section">
-      <label>Message</label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
-    </div>
-    <button type="submit" class="w3-button w3-block w3-black">Send</button>
-  </form>
+  </div>
 
 </div>
 
@@ -244,7 +237,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+
 </footer>
 
 
