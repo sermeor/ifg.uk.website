@@ -97,7 +97,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
           <h3>BILL LEVKOFF</h3>
           <p class="w3-opacity">Bridesmaids & Special Occasion</p>
           <p>Write something here.</p>
-          <p><a href="https://www.billlevkoff.com/"><button class="w3-button w3-light-grey w3-block">Visit</button></a></p>
+          <p><a href="https://www.billlevkoff.com/" target="_blank"><button class="w3-button w3-light-grey w3-block">Visit</button></a></p>
         </div>
       </div>
     </div>
@@ -157,7 +157,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
 
-  <div class="w3-xlarge w3-section">
+  <div class="w3-section">
     <a href="#">Privacy Policy</a>
   </div>
 
