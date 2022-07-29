@@ -68,14 +68,6 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 
 
-
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
-
-</footer>
-
-
 <script>
 // Slideshow
 var slideIndex = 1;
