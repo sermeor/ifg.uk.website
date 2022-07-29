@@ -141,7 +141,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
     <div class="w3-row">
       <div class="map-responsive">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2510.3266641539794!2d-4.238004682556151!3d51.01011370000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486c3fa3942e21a7%3A0xf4837e81321ec7af!2sIFG-UK!5e0!3m2!1ses!2suk!4v1658933066965!5m2!1ses!2suk" width="600" height = "400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2510.3266641539794!2d-4.238004682556151!3d51.01011370000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486c3fa3942e21a7%3A0xf4837e81321ec7af!2sIFG-UK!5e0!3m2!1ses!2suk!4v1658933066965!5m2!1sen!2sus" width="600" height = "400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </div>
