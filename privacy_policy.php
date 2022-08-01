@@ -66,6 +66,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   <p>You may request details of personal information which we hold about you under the Data Protection Act 1998. A small fee will be payable. If you would like a copy of the information held on you please write to International Fashion Group UK, Unit 4, Performance Park, Clovelly Industrial Estate, Bideford, Devon, EX39 3FW</p>
   <p>If you believe that any information that we are holding on you is incorrect or incomplete, please write to or email us as soon as possible at the above address. We will promptly correct any information found to be incorrect.</p>
 
+</div>
   <!-- Footer -->
   <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
     <div class="w3-xlarge w3-section">
@@ -75,7 +76,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
 
     <div class="w3-section">
-      <a href="#">Home Page</a>
+      <a href="main.php">Home Page</a>
     </div>
 
   </footer>
