@@ -158,6 +158,10 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   </div>
 
   <div class="w3-section">
+    <p>&copy;2022 IFG-UK LTD</p>
+  </div>
+
+  <div class="w3-section">
     <a href="/privacy_policy.php">Privacy Policy</a>
   </div>
 

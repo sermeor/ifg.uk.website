@@ -30,10 +30,10 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   <p><strong>What we collect</strong></p>
   <p>We may collect the following information:</p>
   <ul>
-    <li>name</li>
-    <li>contact information including email address</li>
-    <li>demographic information such as postcode, preferences and interests</li>
-    <li>other information relevant to customer surveys and/or offers</li>
+    <li>Name</li>
+    <li>Contact information including email address</li>
+    <li>Demographic information such as postcode, preferences and interests</li>
+    <li>Other information relevant to customer surveys and/or offers</li>
   </ul>
 
 
@@ -75,6 +75,9 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <i class="fa fa-linkedin w3-hover-opacity"></i>
     </div>
 
+    <div class="w3-section">
+      <p>&copy;2022 IFG-UK LTD</p>
+    </div>
     <div class="w3-section">
       <a href="main.php">Home Page</a>
     </div>
