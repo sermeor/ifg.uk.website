@@ -92,7 +92,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="images/madi_example.jpg" alt="Mike" style="width:100%">
+        <img src="images/madi_example.jpg" alt="MADI LANE" style="width:100%">
         <div class="w3-container">
           <h3>MADI LANE</h3>
           <p class="w3-opacity">Bridal gowns</p>
@@ -103,7 +103,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="/w3images/bill1.jpg" alt="John" style="width:100%">
+        <img src="/w3images/bill_example.jpg" alt="John" style="width:100%">
         <div class="w3-container">
           <h3>BILL LEVKOFF</h3>
           <p class="w3-opacity">Bridesmaids & special occasion</p>
@@ -114,7 +114,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="images/evie_example.jpg" alt="Jane" style="width:100%">
+        <img src="images/evie_example.jpg" alt="EVIE YOUNG" style="width:100%">
         <div class="w3-container">
           <h3>EVIE YOUNG</h3>
           <p class="w3-opacity">Bridal gowns</p>
