@@ -92,11 +92,21 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="/w3images/team1.jpg" alt="John" style="width:100%">
+        <img src="images/madi_example.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>MADI LANE</h3>
+          <p class="w3-opacity">Bridal gowns</p>
+          <p><a href="https://madilane.com/" target="_blank"><button class="w3-button w3-light-grey w3-block">Visit</button></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="/w3images/bill1.jpg" alt="John" style="width:100%">
         <div class="w3-container">
           <h3>BILL LEVKOFF</h3>
-          <p class="w3-opacity">Bridesmaids & Special Occasion</p>
-          <p>Write something here.</p>
+          <p class="w3-opacity">Bridesmaids & special occasion</p>
           <p><a href="https://www.billlevkoff.com/" target="_blank"><button class="w3-button w3-light-grey w3-block">Visit</button></a></p>
         </div>
       </div>
@@ -104,24 +114,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+        <img src="images/evie_example.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Art Director</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-third w3-margin-bottom">
-      <div class="w3-card-4">
-        <img src="/w3images/team3.jpg" alt="Jane" style="width:100%">
-        <div class="w3-container">
-          <h3>John Doe</h3>
-          <p class="w3-opacity">Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+          <h3>EVIE YOUNG</h3>
+          <p class="w3-opacity">Bridal gowns</p>
+          <p><a href="https://evieyoung.com/" target="_blank"><button class="w3-button w3-light-grey w3-block">Visit</button></a></p>
         </div>
       </div>
     </div>
