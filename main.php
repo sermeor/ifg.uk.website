@@ -25,6 +25,9 @@ a {text-decoration: none;}
 
 <!-- Links (sit on top) -->
 <div class="w3-top">
+  <p> Hello </p>
+</div>
+<div class="w3-top">
   <div class="w3-row w3-large w3-light-grey">
     <div class="w3-col s3">
       <a href="#" class="w3-button w3-block">Home</a>
@@ -128,7 +131,7 @@ a {text-decoration: none;}
 
   <!-- Contact -->
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact</span>
     <div class="w3-row">
         <p></p>
         <i class="fa fa-map-marker" style="width:30px"></i> <b>Address</b>: Unit 4, Performance Park, Clovelly Road Ind Est., Bideford, Devon, United Kingdom, EX39 3FW
