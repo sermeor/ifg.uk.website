@@ -44,14 +44,16 @@ a {text-decoration: none;}
 
 <!-- Content -->
 <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
-
-  <div class="w3-panel">
-    <h1><b>INTERNATIONAL FASHION GROUP UK</b></h1>
-    <p>IFG UK is a leading fasilitation Agency serving the UK Bridal industry. Encompassing Wedding Gowns and Bridesmaids. Our international brands have a proven reputation for success.</p>
-    <p>It is our mission to share that success with our loyal UK stockists and consumers alike.</p>
-    <p>We pride ourselves on our dedication to everyone we serve, and invite every stockist to experience the difference IFG UK can offer your business.</p>
+  <div class="w3-half w3-container">
+    <div class="w3-panel">
+      <h1><b>INTERNATIONAL FASHION GROUP UK</b></h1>
+      <p>INTERNATIONAL FASHION GROUP UK is a leading fasilitation Agency serving the UK Bridal industry. Encompassing Wedding Gowns and Bridesmaids. Our international brands have a proven reputation for success.</p>
+      <p>It is our mission to share that success with our loyal UK stockists and consumers alike.</p>
+      <p>We pride ourselves on our dedication to everyone we serve, and invite every stockist to experience the difference IFG UK can offer your business.</p>
+    </div>
   </div>
-
+  <div class="w3-half w3-container">
+  </div>
   <!-- Slideshow -->
   <div class="w3-container">
     <div class="w3-display-container mySlides">
