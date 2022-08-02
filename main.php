@@ -24,10 +24,11 @@ a {text-decoration: none;}
 <body>
 
 <!-- Links (sit on top) -->
+
 <div class="w3-top">
-  <p> Hello </p>
-</div>
-<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <p>Hello</p>
+  </div>
   <div class="w3-row w3-large w3-light-grey">
     <div class="w3-col s3">
       <a href="#" class="w3-button w3-block">Home</a>
