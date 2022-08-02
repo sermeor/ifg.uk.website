@@ -128,7 +128,7 @@ a {text-decoration: none;}
   </div>
 
   <!-- Contact -->
-  <div class="w3-row-padding" id="contact">
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
     <div class="w3-center w3-padding-64">
     <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact</span>
     </div>
