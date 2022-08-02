@@ -15,6 +15,8 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
 .map-responsive{overflow:hidden;padding-bottom:56.25%;position:relative;height:0;}
 .map-responsive iframe{left:0;top:0;height:100%;width:100%;position:absolute;}
+
+a { text-decoration: none;}
 </style>
 
 
