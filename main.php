@@ -55,8 +55,9 @@ a {text-decoration: none;}
 
   <div class="w3-half w3-container">
     <div class="w3-panel">
-      <h1><b>INTERNATIONAL FASHION GROUP UK</b></h1>
-      <p>INTERNATIONAL FASHION GROUP UK is a leading fasilitation Agency serving the UK Bridal industry. Encompassing Wedding Gowns and Bridesmaids. Our international brands have a proven reputation for success.</p>
+      <img class="mySlides fade" src="images/IFG-LOGO-BLACK.png" style="width:25%">
+      <h1><b>Welcome to International Fashion Group UK</b></h1>
+      <p>International Fashion Group UK is a leading fasilitation Agency serving the UK Bridal industry. Encompassing Wedding Gowns and Bridesmaids. Our international brands have a proven reputation for success.</p>
       <p>It is our mission to share that success with our loyal UK stockists and consumers alike.</p>
       <p>We pride ourselves on our dedication to everyone we serve, and invite every stockist to experience the difference IFG UK can offer your business.</p>
     </div>
@@ -82,8 +83,6 @@ a {text-decoration: none;}
     </div>
   </div>
 </div>
-
-
 
   <!-- Grid -->
   <div class="w3-row-padding" id="brands">
