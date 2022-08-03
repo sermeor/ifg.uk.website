@@ -11,6 +11,14 @@
 <style>
 html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .mySlides {display:none}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
 .map-responsive{overflow:hidden;padding-bottom:56.25%;position:relative;height:0;}
@@ -57,9 +65,20 @@ a {text-decoration: none;}
 <div class="w3-half w3-container">
   <div class="w3-panel">
     <div class="w3-content w3-section" style="max-width:500px">
-      <img class="mySlides" src="images/1.png" style="width:100%">
-      <img class="mySlides" src="images/2.png" style="width:100%">
-      <img class="mySlides" src="images/3.png" style="width:100%">
+      <img class="mySlides fade" src="images/1.png" style="width:100%">
+      <img class="mySlides fade" src="images/2.png" style="width:100%">
+      <img class="mySlides fade" src="images/3.png" style="width:100%">
+      <img class="mySlides fade" src="images/4.png" style="width:100%">
+      <img class="mySlides fade" src="images/5.png" style="width:100%">
+      <img class="mySlides fade" src="images/6.png" style="width:100%">
+      <img class="mySlides fade" src="images/7.png" style="width:100%">
+      <img class="mySlides fade" src="images/8.png" style="width:100%">
+      <img class="mySlides fade" src="images/9.png" style="width:100%">
+      <img class="mySlides fade" src="images/10.png" style="width:100%">
+      <img class="mySlides fade" src="images/12.png" style="width:100%">
+      <img class="mySlides fade" src="images/13.png" style="width:100%">
+      <img class="mySlides fade" src="images/14.png" style="width:100%">
+      <img class="mySlides fade" src="images/15.png" style="width:100%">
     </div>
   </div>
 </div>
@@ -162,7 +181,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}
   x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  setTimeout(carousel, 4000); // Change image every 4 seconds
 }
 </script>
 
