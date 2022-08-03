@@ -55,7 +55,7 @@ a {text-decoration: none;}
 
   <div class="w3-half w3-container">
     <div class="w3-panel">
-      <img class="mySlides fade" src="images/IFG-LOGO-BLACK.png" style="width:25%">
+      <img src="images/IFG-LOGO-BLACK.png" style="width:25%">
       <h1><b>Welcome to International Fashion Group UK</b></h1>
       <p>International Fashion Group UK is a leading fasilitation Agency serving the UK Bridal industry. Encompassing Wedding Gowns and Bridesmaids. Our international brands have a proven reputation for success.</p>
       <p>It is our mission to share that success with our loyal UK stockists and consumers alike.</p>
