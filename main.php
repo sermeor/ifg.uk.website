@@ -85,12 +85,12 @@ a {text-decoration: none;}
 </div>
 
   <!-- Grid -->
-  <div class="w3-row-padding" id="brands">
+  <div class="w3-row-padding">
     <div class="w3-center w3-padding-64">
       <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Portfolio Brands</span>
     </div>
 
-    <div class="w3-third w3-margin-bottom">
+    <div class="w3-third w3-margin-bottom" id="brands">
       <div class="w3-card-4">
         <img src="images/madi_example.jpg" alt="MADI LANE" style="width:100%">
         <div class="w3-container">
