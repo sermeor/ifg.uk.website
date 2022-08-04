@@ -11,16 +11,20 @@
 <style>
 html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .mySlides {display:none}
+.fade{
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
 .map-responsive{overflow:hidden;padding-bottom:56.25%;position:relative;height:0;}
 .map-responsive iframe{left:0;top:0;height:100%;width:100%;position:absolute;}
+
 a {text-decoration: none;}
-
-#cycler{position:relative;}
-#cycler img{position:absolute;z-index:1}
-#cycler img.active{z-index:3}
-
 </style>
 
 
@@ -62,22 +66,20 @@ a {text-decoration: none;}
 <div class="w3-half w3-container">
   <div class="w3-panel">
     <div class="w3-content w3-section" style="max-width:500px">
-      <div id="cycler">
-        <img class="active" src="images/1.png" style="width:100%">
-        <img src="images/2.png" style="width:100%">
-        <img src="images/3.png" style="width:100%">
-        <img src="images/4.png" style="width:100%">
-        <img src="images/5.png" style="width:100%">
-        <img src="images/6.png" style="width:100%">
-        <img src="images/7.png" style="width:100%">
-        <img src="images/8.png" style="width:100%">
-        <img src="images/9.png" style="width:100%">
-        <img src="images/10.png" style="width:100%">
-        <img src="images/12.png" style="width:100%">
-        <img src="images/13.png" style="width:100%">
-        <img src="images/14.png" style="width:100%">
-        <img src="images/15.png" style="width:100%">
-      </div>
+      <img class="mySlides fade" src="images/1.png" style="width:100%">
+      <img class="mySlides fade" src="images/2.png" style="width:100%">
+      <img class="mySlides fade" src="images/3.png" style="width:100%">
+      <img class="mySlides fade" src="images/4.png" style="width:100%">
+      <img class="mySlides fade" src="images/5.png" style="width:100%">
+      <img class="mySlides fade" src="images/6.png" style="width:100%">
+      <img class="mySlides fade" src="images/7.png" style="width:100%">
+      <img class="mySlides fade" src="images/8.png" style="width:100%">
+      <img class="mySlides fade" src="images/9.png" style="width:100%">
+      <img class="mySlides fade" src="images/10.png" style="width:100%">
+      <img class="mySlides fade" src="images/12.png" style="width:100%">
+      <img class="mySlides fade" src="images/13.png" style="width:100%">
+      <img class="mySlides fade" src="images/14.png" style="width:100%">
+      <img class="mySlides fade" src="images/15.png" style="width:100%">
     </div>
   </div>
 </div>
@@ -166,24 +168,20 @@ a {text-decoration: none;}
 
 
 <script>
+var myIndex = 0;
+carousel();
 
-function cycleImages(){
-      var $active = $('#cycler .active');
-      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
-      $next.css('z-index',2);//move the next image up the pile
-      $active.fadeOut(1500,function(){//fade out the top image
-	  $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
-          $next.css('z-index',3).addClass('active');//make the next image the top one
-      });
-    }
-
-$(document).ready(function(){
-// run every 7s
-setInterval('cycleImages()', 4000);
-})
-
-
-
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 4000); // Change image every 4 seconds
+}
 </script>
 
 
