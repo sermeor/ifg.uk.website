@@ -57,14 +57,14 @@ a {text-decoration: none;}
     </div>
   </div>
 
-<div class="w3-half w3-container">
+<div class="w3-half w3-container" id="cycler">
 
-  <div class="w3-panel" id="cycler">
+
     <img class="active" src="images/1.png"/>
     <img src="images/2.png"/>
     <img src="images/3.png"/>
     <img src="images/4.png"/>
-  </div>
+
 
 </div>
 
