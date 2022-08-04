@@ -5,10 +5,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
-<link rel="stylesheet" href="crossfade_slideshow.css">
-<link rel="stylesheet" href="font-lato.css">
-<link rel="stylesheet" href="font-awesome.min.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/1.ico"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 <style>
 html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .w3-tag, .fa {cursor:pointer}
@@ -16,34 +16,13 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .map-responsive{overflow:hidden;padding-bottom:56.25%;position:relative;height:0;}
 .map-responsive iframe{left:0;top:0;height:100%;width:100%;position:absolute;}
 a {text-decoration: none;}
+
+
+#cycler{position:relative;}
+#cycler img{position:absolute;z-index:1}
+#cycler img.active{z-index:3}
+
 </style>
-
-<style>
-  #stage {
-    margin: 1em auto;
-    width: 382px;
-    height: 292px;
-  }
-
-  #stage a:nth-of-type(1) {
-    animation-name: fader;
-    animation-delay: 4s;
-    animation-duration: 1s;
-    z-index: 20;
-  }
-  #stage a:nth-of-type(2) {
-    z-index: 10;
-  }
-  #stage a:nth-of-type(n+3) {
-    display: none;
-  }
-
-  @keyframes fader {
-    from { opacity: 1.0; }
-    to   { opacity: 0.0; }
-  }
-</style>
-
 
 </head>
 <body>
@@ -82,23 +61,11 @@ a {text-decoration: none;}
 
 <div class="w3-half w3-container">
   <div class="w3-panel">
-    <div class="w3-content w3-section" style="max-width:500px">
-      <div id="stage">
-      <a><img src="images/1.png" style="width:100%"></a>
-      <a><img src="images/2.png" style="width:100%"></a>
-      <a><img src="images/3.png" style="width:100%"></a>
-      <a><img src="images/4.png" style="width:100%"></a>
-      <a><img src="images/5.png" style="width:100%"></a>
-      <a><img src="images/6.png" style="width:100%"></a>
-      <a><img src="images/7.png" style="width:100%"></a>
-      <a><img src="images/8.png" style="width:100%"></a>
-      <a><img src="images/9.png" style="width:100%"></a>
-      <a><img src="images/10.png" style="width:100%"></a>
-      <a><img src="images/12.png" style="width:100%"></a>
-      <a><img src="images/13.png" style="width:100%"></a>
-      <a><img src="images/14.png" style="width:100%"></a>
-      <a><img src="images/15.png" style="width:100%"></a>
-      </div>
+    <div id="cycler">
+      <img class="active" src="image1.jpg" alt="My image" />
+      <img src="images/image1.png"/>
+      <img src="images/image2.png"/>
+      <img src="images/image3.png"/>
     </div>
   </div>
 </div>
@@ -187,21 +154,7 @@ a {text-decoration: none;}
 
 
 <script>
-// TEST
-window.addEventListener("DOMContentLoaded", function(e) {
 
-  // Original JavaScript code by Chirp Internet: chirpinternet.eu
-  // Please acknowledge use of this code by including this header.
-
-  var stage = document.getElementById("stage");
-  var fadeComplete = function(e) { stage.appendChild(arr[0]); };
-  var arr = stage.getElementsByTagName("a");
-  for(var i=0; i < arr.length; i++) {
-    arr[i].addEventListener("animationend", fadeComplete, false);
-  }
-
-}, false);
-// TEST
 
 </script>
 
