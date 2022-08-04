@@ -17,9 +17,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .map-responsive iframe{left:0;top:0;height:100%;width:100%;position:absolute;}
 a {text-decoration: none;}
 
-
-
-#cycler img{position:absolute;z-index:1}
+#cycler img{z-index:1}
 #cycler img.active{z-index:3}
 
 </style>
