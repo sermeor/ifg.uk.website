@@ -58,7 +58,7 @@ a {text-decoration: none;}
   </div>
 
 <div class="w3-half w3-container">
-  <div class="w3-panel w3-card-4" id="cycler">
+  <div class="w3-card-4" id="cycler">
     <img class="active" src="images/1.png" style="width:100%"/>
     <img src="images/2.png" style="width:100%"/>
     <img src="images/3.png"style="width:100%"/>
