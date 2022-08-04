@@ -61,8 +61,8 @@ a {text-decoration: none;}
 
 <div class="w3-half w3-container">
   <div class="w3-panel">
-    <div id="cycler">
-      <img class="active" src="1.png" alt="My image" />
+    <div id="cycler" style = "width:100%">
+      <img class="active" src="images/1.png">
       <img src="images/2.png"/>
       <img src="images/3.png"/>
       <img src="images/4.png"/>
