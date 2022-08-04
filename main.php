@@ -62,10 +62,10 @@ a {text-decoration: none;}
 <div class="w3-half w3-container">
   <div class="w3-panel">
     <div id="cycler">
-      <img class="active" src="image1.jpg" alt="My image" />
-      <img src="images/image1.png"/>
-      <img src="images/image2.png"/>
-      <img src="images/image3.png"/>
+      <img class="active" src="1.png" alt="My image" />
+      <img src="images/2.png"/>
+      <img src="images/3.png"/>
+      <img src="images/4.png"/>
     </div>
   </div>
 </div>
@@ -155,6 +155,20 @@ a {text-decoration: none;}
 
 <script>
 
+function cycleImages(){
+      var $active = $('#cycler .active');
+      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
+      $next.css('z-index',2);//move the next image up the pile
+      $active.fadeOut(1500,function(){//fade out the top image
+	  $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
+          $next.css('z-index',3).addClass('active');//make the next image the top one
+      });
+    }
+
+$(document).ready(function(){
+// run every 7s
+setInterval('cycleImages()', 7000);
+})
 
 </script>
 
