@@ -27,6 +27,41 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 a {text-decoration: none;}
 </style>
 
+<style>
+  #stage {
+    margin: 1em auto;
+    width: 382px;
+    height: 292px;
+  }
+
+  #stage a {
+    position: absolute;
+  }
+  #stage a img {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+
+  #stage a:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    z-index: 20;
+  }
+  #stage a:nth-of-type(2) {
+    z-index: 10;
+  }
+  #stage a:nth-of-type(n+3) {
+    display: none;
+  }
+
+  @keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+</style>
+
 
 </head>
 <body>
@@ -67,20 +102,20 @@ a {text-decoration: none;}
   <div class="w3-panel">
     <div class="w3-content w3-section" style="max-width:500px">
       <div id="stage">
-      <img src="images/1.png" style="width:100%">
-      <img src="images/2.png" style="width:100%">
-      <img src="images/3.png" style="width:100%">
-      <img src="images/4.png" style="width:100%">
-      <img src="images/5.png" style="width:100%">
-      <img src="images/6.png" style="width:100%">
-      <img src="images/7.png" style="width:100%">
-      <img src="images/8.png" style="width:100%">
-      <img src="images/9.png" style="width:100%">
-      <img src="images/10.png" style="width:100%">
-      <img src="images/12.png" style="width:100%">
-      <img src="images/13.png" style="width:100%">
-      <img src="images/14.png" style="width:100%">
-      <img src="images/15.png" style="width:100%">
+      <a><img src="images/1.png" style="width:100%"></a>
+      <a><img src="images/2.png" style="width:100%"></a>
+      <a><img src="images/3.png" style="width:100%"></a>
+      <a><img src="images/4.png" style="width:100%"></a>
+      <a><img src="images/5.png" style="width:100%"></a>
+      <a><img src="images/6.png" style="width:100%"></a>
+      <a><img src="images/7.png" style="width:100%"></a>
+      <a><img src="images/8.png" style="width:100%"></a>
+      <a><img src="images/9.png" style="width:100%"></a>
+      <a><img src="images/10.png" style="width:100%"></a>
+      <a><img src="images/12.png" style="width:100%"></a>
+      <a><img src="images/13.png" style="width:100%"></a>
+      <a><img src="images/14.png" style="width:100%"></a>
+      <a><img src="images/15.png" style="width:100%"></a>
       </div>
     </div>
   </div>
@@ -188,15 +223,18 @@ function carousel() {
 
 // TEST
 window.addEventListener("DOMContentLoaded", function(e) {
-    // Original JavaScript code by Chirp Internet: chirpinternet.eu
-    // Please acknowledge use of this code by including this header.
-    var stage = document.getElementById("stage");
-    var fadeComplete = function(e) { stage.appendChild(arr[0]); };
-    var arr = stage.getElementsByTagName("img");
-    for(var i=0; i < arr.length; i++) {
-      arr[i].addEventListener("animationend", fadeComplete, false);
-    }
-  }, false);
+
+  // Original JavaScript code by Chirp Internet: chirpinternet.eu
+  // Please acknowledge use of this code by including this header.
+
+  var stage = document.getElementById("stage");
+  var fadeComplete = function(e) { stage.appendChild(arr[0]); };
+  var arr = stage.getElementsByTagName("a");
+  for(var i=0; i < arr.length; i++) {
+    arr[i].addEventListener("animationend", fadeComplete, false);
+  }
+
+}, false);
 // TEST
 
 </script>
