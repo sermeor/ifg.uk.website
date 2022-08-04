@@ -11,15 +11,6 @@
 <link rel="shortcut icon" type="image/x-icon" href="images/1.ico"/>
 <style>
 html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
-.mySlides {display:none}
-.fade{
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
 .map-responsive{overflow:hidden;padding-bottom:56.25%;position:relative;height:0;}
@@ -32,15 +23,6 @@ a {text-decoration: none;}
     margin: 1em auto;
     width: 382px;
     height: 292px;
-  }
-
-  #stage a {
-    position: absolute;
-  }
-  #stage a img {
-    padding: 10px;
-    border: 1px solid #ccc;
-    background: #fff;
   }
 
   #stage a:nth-of-type(1) {
@@ -205,22 +187,6 @@ a {text-decoration: none;}
 
 
 <script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 4000); // Change image every 4 seconds
-}
-
-
 // TEST
 window.addEventListener("DOMContentLoaded", function(e) {
 
