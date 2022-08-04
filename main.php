@@ -17,7 +17,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .map-responsive iframe{left:0;top:0;height:100%;width:100%;position:absolute;}
 a {text-decoration: none;}
 
-#cycler img{position:relative;z-index:1}
+#cycler img{z-index:1}
 #cycler img.active{z-index:3}
 
 </style>
@@ -59,10 +59,10 @@ a {text-decoration: none;}
 
 <div class="w3-half w3-container">
   <div class="w3-panel" id="cycler">
-    <img class="active" src="images/1.png"/>
-    <img src="images/2.png"/>
-    <img src="images/3.png"/>
-    <img src="images/4.png"/>
+    <img class="active" src="images/1.png" style="width:100%"/>
+    <img src="images/2.png" style="width:100%"/>
+    <img src="images/3.png"style="width:100%"/>
+    <img src="images/4.png"style="width:100%"/>
   </div>
 </div>
 
