@@ -54,6 +54,9 @@ a {text-decoration: none;}
       <p>International Fashion Group UK is a leading fasilitation Agency serving the UK Bridal industry. Encompassing Wedding Gowns and Bridesmaids. Our international brands have a proven reputation for success.</p>
       <p>It is our mission to share that success with our loyal UK stockists and consumers alike.</p>
       <p>We pride ourselves on our dedication to everyone we serve, and invite every stockist to experience the difference IFG UK can offer your business.</p>
+
+      <p><a href="collections.php" target="_blank"><button class="w3-button w3-light-grey w3-block">Collections</button></a></p>
+
     </div>
   </div>
 
