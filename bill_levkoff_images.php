@@ -108,8 +108,8 @@ a {text-decoration: none;}
 
 <!-- Content -->
 <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
-  <a href="/" target="_blank" style = "float:right;"><button class="w3-button w3-light-grey w3-block">Back to Home</button></a>
-
+  <a href="/" style = "float:right;"><button class="w3-button w3-light-grey w3-block">Back to Home</button></a>
+  <p></p>
 
 
   <div class="slideshow-container">

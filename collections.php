@@ -23,8 +23,8 @@ a {text-decoration: none;}
 
 <!-- Content -->
 <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
-      <a href="/" target="_blank" style = "float:right;"><button class="w3-button w3-light-grey w3-block">Back to Home</button></a>
-
+      <a href="/" style = "float:right;"><button class="w3-button w3-light-grey w3-block">Back to Home</button></a>
+      <p></p>
       <p> Below you have access to images, size charts and shipping dates. Please be aware that none of this content can be downloaded, copied or distributed from this website.</p>
       <p><a href="bill_levkoff_images.php" target="_blank"><button class="w3-button w3-light-grey w3-block">Visit Bill Levkoff Images</button></a></p>
       <p><a href="docs/Bill-Levkoff-Shipping-Dates2022.pdf" target="_blank"><button class="w3-button w3-light-grey w3-block">Open Bill Levkoff Shipping Dates</button></a></p>
