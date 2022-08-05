@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>IFG UK</title>
+<title>IFG UK - Privacy Policy</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -79,7 +79,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <p>&copy;2022 IFG-UK LTD</p>
     </div>
     <div class="w3-section">
-      <a href="main.php">Home Page</a>
+      <a href="private_policy.php">Private Policy</a>
     </div>
 
   </footer>
