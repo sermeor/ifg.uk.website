@@ -22,6 +22,9 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <!-- Content -->
 <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
 
+  <a href="/" style = "float:right;"><button class="w3-button w3-light-grey w3-block">Back to Home</button></a>
+  <p></p>
+
   <p><strong></p>Privacy Policy</strong></p>
   <p>This privacy policy sets out how International Fashion Group UK uses and protetcs any information that you give International Fashion Group UK when you use this website.</p>
   <p>International Fashion Group UK is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, then you can be assured that it will only be used in accordance with this privacy statement.</p>
