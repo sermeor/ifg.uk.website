@@ -63,20 +63,20 @@ a {text-decoration: none;}
 <div class="w3-half w3-container">
   <div class="w3-card-4" id="cycler">
     <img class="active" src="images/1.png" style="width:100%"/>
-    <img src="images/2.png" style="width:100%"/>
-    <img src="images/3.png"style="width:100%"/>
-    <img src="images/4.png"style="width:100%"/>
-    <img src="images/5.png"style="width:100%"/>
-    <img src="images/6.png"style="width:100%"/>
-    <img src="images/7.png"style="width:100%"/>
-    <img src="images/8.png"style="width:100%"/>
-    <img src="images/9.png"style="width:100%"/>
-    <img src="images/10.png"style="width:100%"/>
-    <img src="images/11.png"style="width:100%"/>
-    <img src="images/12.png"style="width:100%"/>
-    <img src="images/13.png"style="width:100%"/>
-    <img src="images/14.png"style="width:100%"/>
-    <img src="images/15.png"style="width:100%"/>
+    <img src="images/2.jpg" style="width:100%"/>
+    <img src="images/3.jpg"style="width:100%"/>
+    <img src="images/4.jpg"style="width:100%"/>
+    <img src="images/5.jpg"style="width:100%"/>
+    <img src="images/6.jpg"style="width:100%"/>
+    <img src="images/7.jpg"style="width:100%"/>
+    <img src="images/8.jpg"style="width:100%"/>
+    <img src="images/9.jpg"style="width:100%"/>
+    <img src="images/10.jpg"style="width:100%"/>
+    <img src="images/11.jpg"style="width:100%"/>
+    <img src="images/12.jpg"style="width:100%"/>
+    <img src="images/13.jpg"style="width:100%"/>
+    <img src="images/14.jpg"style="width:100%"/>
+    <img src="images/15.jpg"style="width:100%"/>
   </div>
 </div>
 
