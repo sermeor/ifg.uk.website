@@ -49,6 +49,8 @@ a {text-decoration: none;}
 
 </div>
 
+</div>
+
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
   <div class="w3-xlarge w3-section">
