@@ -30,7 +30,7 @@ a {text-decoration: none;}
 <div class="w3-top" style = "z-index:9999">
   <div class="w3-row w3-large w3-light-grey">
     <div class="w3-col s3">
-    <img src="images/IFG-LOGO-BLACK.png" style="width:25%"> &nbsp; &nbsp; IFG-UK
+    <img src="images/IFG-LOGO-BLACK.png" style="width:5%"> &nbsp; &nbsp; IFG-UK
     </div>
     <div class="w3-col s3">
       <a href="#" class="w3-button w3-block">Home</a>
@@ -49,7 +49,7 @@ a {text-decoration: none;}
 
   <div class="w3-half w3-container">
     <div class="w3-panel">
-      <img src="images/IFG-LOGO-BLACK.png" style="width:12.5%">
+      <img src="images/IFG-LOGO-BLACK.png" style="width:25%">
       <h1><b>Welcome to International Fashion Group UK</b></h1>
       <p>International Fashion Group UK is a leading fasilitation Agency serving the UK Bridal industry. Encompassing Wedding Gowns and Bridesmaids. Our international brands have a proven reputation for success.</p>
       <p>It is our mission to share that success with our loyal UK stockists and consumers alike.</p>
