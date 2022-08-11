@@ -23,13 +23,27 @@ a {text-decoration: none;}
 
 <!-- Content -->
 <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
-      <a href="/" style = "float:right;"><button class="w3-button w3-light-grey w3-block">Back to Home</button></a>
-      <p></p>
+
+  <a href="/" style = "float:right;"><button class="w3-button w3-light-grey w3-block">Back to Home</button></a>
+  <p></p>
+
+
+  <div class="w3-half w3-container">
+    <div class="w3-card-4">
+      <img src="images/1.jpg" style="width:100%"/>
+    </div>
+  </div>
+
+
+  <div class="w3-half w3-container">
+    <div class="w3-panel">
+      <img src="images/IFG-LOGO-BLACK.png" style="width:25%">
+      <h1><b>Collections</b></h1>
       <p> Below you have access to images, size charts and shipping dates. Please be aware that none of this content can be downloaded, copied or distributed from this website.</p>
       <p><a href="bill_levkoff_images.php" target="_blank"><button class="w3-button w3-light-grey w3-block">Visit Bill Levkoff Images</button></a></p>
       <p><a href="docs/Bill-Levkoff-Shipping-Dates2022.pdf" target="_blank"><button class="w3-button w3-light-grey w3-block">Open Bill Levkoff Shipping Dates</button></a></p>
       <p><a href="docs/Bill-Levkoff-Order-Form.pdf" target="_blank"><button class="w3-button w3-light-grey w3-block">Open Bill Levkoff Order Form</button></a></p>
-
+  </div>
 
 
 
