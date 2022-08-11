@@ -30,6 +30,9 @@ a {text-decoration: none;}
 <div class="w3-top" style = "z-index:9999">
   <div class="w3-row w3-large w3-light-grey">
     <div class="w3-col s3">
+    <img src="images/IFG-LOGO-BLACK.png" style="width:25%"> IFG-UK  
+    </div>
+    <div class="w3-col s3">
       <a href="#" class="w3-button w3-block">Home</a>
     </div>
     <div class="w3-col s3">
