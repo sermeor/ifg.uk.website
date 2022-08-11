@@ -36,9 +36,6 @@ a {text-decoration: none;}
       <a href="#brands" class="w3-button w3-block">Brands</a>
     </div>
     <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-block">About</a>
-    </div>
-    <div class="w3-col s3">
       <a href="#contact" class="w3-button w3-block">Contact</a>
     </div>
   </div>
@@ -127,7 +124,7 @@ a {text-decoration: none;}
     </div>
     <div class="w3-row">
         <p></p>
-        <i class="fa fa-map-marker" style="width:30px"></i> <b>Address</b>: Unit 4, Performance Park, Clovelly Road Ind Est., Bideford, Devon, United Kingdom, EX39 3FW
+        <i class="fa fa-map-marker" style="width:30px"></i> <b>Head Office</b>: Unit 4, Performance Park, Clovelly Road Ind Est., Bideford, Devon, United Kingdom, EX39 3FW
         <p></p>
         <i class="fa fa-phone" style="width:30px"></i> <b>Phone</b>: 01237723047 / 07759226220
         <p></p>
