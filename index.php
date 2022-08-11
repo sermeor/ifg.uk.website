@@ -1,19 +1,19 @@
 <?php
 switch ($_SERVER['REQUEST_URI']) {
   case '/':
-  include 'main.php';
+  include 'main.html';
   break;
-  case '/privacy_policy.php':
-  include 'privacy_policy.php';
+  case '/privacy_policy.html':
+  include 'privacy_policy.html';
   break;
-  case '/collections.php':
-  include 'collections.php';
+  case '/collections.html':
+  include 'collections.html';
   break;
-  case '/bill_levkoff_images.php':
-  include 'bill_levkoff_images.php';
+  case '/bill_levkoff_images.html':
+  include 'bill_levkoff_images.html';
   break;
   default:
-  include 'main.php';
+  include 'main.html';
   break;
 }
 ?>
