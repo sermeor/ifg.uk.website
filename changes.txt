@@ -1,3 +1,0 @@
- - Add a home button on every extra page and private policy at the footer.
- - Design images page with scroll bar.
- - Get shipping dates in a html and pdf calendar.
