@@ -25,13 +25,11 @@ a {text-decoration: none;}
 </head>
 <body>
 
-
 <div style="background: #182440; margin-bottom:0px;">
   <div style="text-align: center;">
     <img class="center" src="images\ifg-uk-logo-with-text-white.png" style="width:10%;"/>
   </div>
 </div>
-
 
 <div style="background:#3349a2; margin-top:0px;"> &nbsp; </div>
 
@@ -40,37 +38,57 @@ a {text-decoration: none;}
 <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
   <div class="w3-half w3-container">
     <div class="w3-panel">
+      <img class="center" src="images\IFG-LOGO-BLACK.png" style="width:15%;"/>
       <h1><b>Welcome to International Fashion Group UK</b></h1>
-      <p>International Fashion Group UK is a leading fasilitation agency serving the UK bridal industry. Encompassing wedding gowns and bridesmaids. Our international brands have a proven reputation for success.</p>
+      <p>International Fashion Group UK is a leading facilitation agency serving the UK bridal industry. Encompassing bridal gowns and bridesmaids. Our international brands have a proven reputation for success.</p>
       <p>It is our mission to share that success with our loyal UK stockists and consumers alike.</p>
-      <p>We pride ourselves on our dedication to everyone we serve, and invite every stockist to experience the difference IFG UK can offer your business.</p>
+      <p>We pride ourselves on our dedication to everyone we serve, and invite every stockist to experience the difference IFG UK can offer your business.</p>
+      <p>Contact us vwith any questions with the provided contact information below. We will be happy to answer your enquiries. </p>
+
     </div>
   </div>
 
   <div class="w3-half w3-container">
-      <img class="active" src="images/warehouse.jpg" style="width:100%"/>
+    <div class="w3-card-4" id="cycler">
+      <img class="active" src="images/p1.jpg" style="width:100%"/>
+      <img src="images/p2.jpg" style="width:100%"/>
+      <img src="images/p3.jpg"style="width:100%"/>
+      <img src="images/p4.jpg"style="width:100%"/>
+      <img src="images/p5.jpg"style="width:100%"/>
+      <img src="images/p6.jpg"style="width:100%"/>
+      <img src="images/p7.jpg"style="width:100%"/>
+    </div>
   </div>
 
-  <!-- Contact -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <div class="w3-center w3-padding-64">
-    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact</span>
-    </div>
-    <div class="w3-row">
-        <p></p>
-        <i class="fa fa-map-marker" style="width:30px"></i> <b>Head Office</b>: Unit 4, Performance Park, Clovelly Road Ind Est., Bideford, Devon, United Kingdom, EX39 3FW
-        <p></p>
-        <i class="fa fa-phone" style="width:30px"></i> <b>Phone</b>: 01237723047 or 07759226220
-        <p></p>
-        <i class="fa fa-envelope" style="width:30px"> </i> <b>Email</b>: <a href = "mailto: enquiries@ifg-uk.com">enquiries@ifg-uk.com</a>
-        <p></p>
-    </div>
-    <div class="w3-row">
-      <div class="map-responsive">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2510.3266641539794!2d-4.238004682556151!3d51.01011370000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486c3fa3942e21a7%3A0xf4837e81321ec7af!2sIFG-UK!5e0!3m2!1ses!2suk!4v1658933066965!5m2!1sen!2sus" width="600" height = "400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
+<div class="w3-container"></div>
+
+</div>
+
+
+
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-half w3-container">
+    <div class="w3-panel">
+      <h1><b>Contact</b></h1>
+      <p></p>
+      <i class="fa fa-map-marker" style="width:30px"></i> <b>Head Office</b>: Unit 4, Performance Park, Clovelly Road Ind Est., Bideford, Devon, United Kingdom, EX39 3FW
+      <p></p>
+      <i class="fa fa-phone" style="width:30px"></i> <b>Phone</b>: 01237723047 or 07759226220
+      <p></p>
+      <i class="fa fa-envelope" style="width:30px"> </i> <b>Email</b>: <a href = "mailto: enquiries@ifg-uk.com">enquiries@ifg-uk.com</a>
+      <p></p>
     </div>
   </div>
+
+  <div class="w3-half w3-container">
+    <div class="map-responsive">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2510.3266641539794!2d-4.238004682556151!3d51.01011370000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486c3fa3942e21a7%3A0xf4837e81321ec7af!2sIFG-UK!5e0!3m2!1ses!2suk!4v1658933066965!5m2!1sen!2sus" width="600" height = "400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+<div class="w3-container"></div>
+
 </div>
 
 
@@ -92,4 +110,55 @@ a {text-decoration: none;}
 </footer>
 
 </body>
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+
+<script>
+function cycleImages(){
+      var $active = $('#cycler .active');
+      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
+      $next.css('z-index',2);//move the next image up the pile
+      $active.fadeOut(1500,function(){//fade out the top image
+	  $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
+          $next.css('z-index',3).addClass('active');//make the next image the top one
+      });
+    }
+$(document).ready(function(){
+// run every 4s
+setInterval('cycleImages()', 4000);
+})
+</script>
+
+
+
+
 </html>
